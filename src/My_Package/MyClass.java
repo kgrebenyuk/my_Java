@@ -1,5 +1,4 @@
 package My_Package;
-
 import java.util.Scanner;
 
 public class MyClass {
