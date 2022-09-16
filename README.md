@@ -1,1 +1,1 @@
-# my_Java
+# my_Java. Home works of Konstantin Ggrebenyuk 
