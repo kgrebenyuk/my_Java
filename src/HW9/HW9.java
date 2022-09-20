@@ -10,7 +10,6 @@ public class HW9 {
         Random rd = new Random();
         int rdi;
         boolean isRunning = true;
-
         while (isRunning) {
             System.out.println("Угадайте целое число от 0 до 10, ( 3 попытки )");
             rdi = rd.nextInt(10);
