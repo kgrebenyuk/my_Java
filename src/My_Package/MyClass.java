@@ -1,16 +1,8 @@
 package My_Package;
-import java.util.Scanner;
-
 public class MyClass {
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Калькулятор вычисления суммы двух целых чисел :)");
-        System.out.println("Введите первое число");
-        int num_1 = sc.nextInt();
-        System.out.println("Введите второе число");
-        int num_2 = sc.nextInt();
-        int sum = num_1 + num_2;
-        System.out.println(num_1 + " + " + num_2 + " = " + sum);
+        System.out.println("Загальна атака:");
+        System.out.println("Династія Лі:   " + 860 * (13 + 24 + 46));
+        System.out.println("Династія Мінь: " + (int)(1.5 * 860 * (9 + 35 + 12)));
     }
 }
