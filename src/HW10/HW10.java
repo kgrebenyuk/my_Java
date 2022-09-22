@@ -1,5 +1,4 @@
 package HW10;
-
 public class HW10 {
     public static void main(String[] args) {
         int num = 1, i = 1;
