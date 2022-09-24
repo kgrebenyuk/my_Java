@@ -1,52 +1,34 @@
 package HW11;
 
+import java.util.Random;
+
 public class HW11 {
-
-
     public static void main(String[] args) {
 
+        Random rd = new Random();
+        int numPlayers = 25, maxAge = 40, minAge = 18;
+        int team1Avr = 0, team2Avr = 0;
 
-        // String names[] = new String[10];
+        int[] team1 = new int[numPlayers];
+        int[] team2 = new int[numPlayers];
 
-        String names[] = {"Ivan","AaraS","OLEg"};
-        String name1 = names[0];
-        char ch= name1[0];
-
-        синтаксиса с  "[]"  - в JAVA нет ?
-
-        for(String name : names) {
-            if (name.startsWith("A") &&  name.length() > 4 )
-                System.out.println(name);
+        for (int i = 0; i < numPlayers; i++) {
+            team1[i] = rd.nextInt(maxAge - minAge) + minAge;
+            team2[i] = rd.nextInt(maxAge - minAge) + minAge;
         }
 
-
-
-/*
-        int arr[] = new int[100];
-        Random random = new Random();
-
-        int summ =0;
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = random.nextInt(100);
+        System.out.print("Team 1 age: ");
+        for (int age : team1) {
+            team1Avr += age;
+            System.out.print(age + " ");
         }
-        for (int i = 0; i < 100; i ++)
-        {
-            if (arr[i] %2 != 0)         summ +=arr[i];
+        System.out.print(", average: " + team1Avr / numPlayers + "\n");
+
+        System.out.print("Team 2 age: ");
+        for (int age : team2) {
+            team2Avr += age;
+            System.out.print(age + " ");
         }
-            System.out.println(summ);
-*/
-
-
- /*       int max = arr[0];
-        for (int i : arr)
-            if (max > i)
-                max = i;
-
-        System.out.println("max =" + max);
-*/
-
+        System.out.print(", average: "+ team2Avr / numPlayers + "\n");
     }
-
-
-
 }
