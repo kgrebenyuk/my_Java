@@ -1,9 +1,9 @@
-package HW12;
+package HW13;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class HW12 {
+public class HW13 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
