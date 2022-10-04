@@ -43,7 +43,6 @@ public class Burger {
         System.out.println("    сыр     - " + cheese);
         System.out.println("    зелень  - " + salad);
         System.out.println("    майонез - " + mayonnaise + "\n");
-
     }
 }
 
