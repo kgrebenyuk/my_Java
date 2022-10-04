@@ -35,7 +35,6 @@ public class Burger {
 
         printComposition(nameOfBurger, bread, meat * 2, cheese, salad, mayonnaise);
     }
-
     public void printComposition(String nameOfBurger, int bread, int meat, int cheese, int salad, int mayonnaise) {
         System.out.println(nameOfBurger + " (состав в гр.)");
         System.out.println("    булочка - " + bread);
